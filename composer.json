@@ -1,0 +1,34 @@
+{
+    "name": "hellonico/wp-early-hooks",
+    "description": "Add filters and actions before WordPress hooks functions are available",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "wordpress",
+        "hooks",
+        "actions",
+        "filters"
+    ],
+    "authors": [
+        {
+            "name": "Nicolas Lemoine",
+            "email": "dev@niconico.fr"
+        }
+    ],
+    "require-dev": {
+        "symplify/easy-coding-standard": "^11.1"
+    },
+    "autoload": {
+        "files": [
+            "functions.php"
+        ]
+    },
+    "scripts": {
+        "lint": [
+            "vendor/bin/ecs check"
+        ],
+        "lint:fix": [
+            "vendor/bin/ecs check --fix"
+        ]
+    }
+}
